@@ -10,7 +10,7 @@ def get_stock_price(ticker):
         print(f"Error fetching data: {e}")
         return None
 
-def monitor_stock_price(ticker, interval=60):
+def monitor_stock_price(ticker, interval=10):
     while True:
         price = get_stock_price(ticker)
         if price is not None:
