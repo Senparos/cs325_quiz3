@@ -18,5 +18,5 @@ def monitor_stock_price(ticker, interval=10):
         time.sleep(interval)
 
 if __name__ == "__main__":
-    SYMBOL = 'SFY'  # Replace with the desired stock symbol
+    SYMBOL = 'MSFT'  # Replace with the desired stock symbol
     monitor_stock_price(SYMBOL)
