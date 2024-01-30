@@ -19,6 +19,6 @@ def monitor_stock_price(ticker, interval=10):
 
 if __name__ == "__main__":
 
-   SYMBOL = 'SPY'  # Replace with the desired stock symbol
+   SYMBOL = 'VOO'  # Replace with the desired stock symbol
 
     monitor_stock_price(SYMBOL)
