@@ -18,7 +18,9 @@ def monitor_stock_price(ticker, interval=10):
         time.sleep(interval)
 
 if __name__ == "__main__":
+<<<<<<< HEAD
 
-   SYMBOL = 'VOO'  # Replace with the desired stock symbol
+   SYMBOL = 'SPY'  # Replace with the desired stock symbol
 
+>>>>>>> origin/master
     monitor_stock_price(SYMBOL)
